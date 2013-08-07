@@ -658,7 +658,7 @@ I очередь, км 0-50
 					
 				
 				 \begin{equation}
-				 Q_{\text{N усои}}=\begin{cases}	0, & N_{\text{усои}}\leqslant2;\\
+				 Q_{\text{N усои}}=\begin{cases}	0, & N_{\text{усои}}< 3;\\
 													1, & N_{\text{вн. устр. 24В}}=3.
 									\end{cases}
 				 \end{equation}
@@ -672,6 +672,21 @@ I очередь, км 0-50
 				
 			Количество блоков НУЗП-03-40 определяется по формуле:	
 			\colI{colnuzp40usoi}{N_{\text{нузп 40}}=N_{\text{вн. датч.}}+(N_{\text{кр. 2сол.}}+N_{\text{кр. 3сол.}})\cdot2+}
+			
+			
+			
+			
+			\newpage
+			\begin{table}[tbh]
+				\caption{Оборудование и применяемые устройства для его подключения (на основании Сыктывкарского промузла)}
+				\label{t:podkloborud}
+				\begin{tabular}{|p{0.3\linewidth}|p{0.65\linewidth}|}
+				\hline Внешнее оборудование & Кол-во сигналов и изделия для подключения \\
+				\hline Реклоузер (пост. напряж. 220В ?, вх. сопр. 125кОм) & 2ТС, 2ТУ+2ТСвн.\newline 2 НУЗП-01-350, 2 реле RM84-2012-35-1024 \\ 
+				\hline  &  \\ 
+				\hline 
+				\end{tabular} 
+			\end{table}
 			
 			
 		\printindex
