@@ -1,0 +1,8 @@
+/.project
+*.aux
+*.dvi
+*.log
+*.out
+*.toc
+*.idx
+*.idn
